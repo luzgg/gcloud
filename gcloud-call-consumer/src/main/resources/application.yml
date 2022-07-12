@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: call-consumer
+server:
+  port: 9092
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/

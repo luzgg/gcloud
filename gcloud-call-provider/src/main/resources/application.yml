@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: call-provider
+
+server:
+  port: 9091
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+
